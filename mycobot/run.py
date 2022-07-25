@@ -35,9 +35,9 @@ erobot = elephant_command()
 # 重要初始位置
 chushiweizhi =  [-335,183,707,90,33,-180]
 erobot.set_coords(chushiweizhi,2000)
-# erobot.set_angles(chushiweizhi,720)
-#
-# print(erobot.get_angles())
-# print(erobot.get_coords())
+erobot.set_angles(chushiweizhi,720)
+
+print(erobot.get_angles())
+print(erobot.get_coords())
 
 
